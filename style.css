@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgb(0, 39, 0),rgb(9, 125, 25));
+}
+.btn_submit{
+    color: rgb(245, 245, 245);
+    padding: 3px 20px;
+    border-radius: 5px;
+    background-color: #027046;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.btn_submit:hover{
+    background-color: #03513d;
+}
+
+.main_container{
+    height: 100vh;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ta_wrapper{
+    background-color: rgb(3, 71, 53);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.input_wrapper{
+    margin-bottom: 30px;
+}
+
+.todo_items{
+    color: red;
+}
+.action_items{
+    color: green;
+}
